@@ -100,9 +100,6 @@ def ray_deps_setup():
         build_file = "@com_github_ray_project_ray//bazel:BUILD.redis",
         url = "https://github.com/redis/redis/archive/refs/tags/7.0.4.tar.gz",
         sha256 = "1eeacd656e6b6e45aee3c4037dd098932979d3853220bbeb84cb35ca7ef6d2ca",
-        # patches = [
-        #     "@com_github_ray_project_ray//thirdparty/patches:redis-quiet.patch",
-        # ],
     )
 
     auto_http_archive(
